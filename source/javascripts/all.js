@@ -9,7 +9,7 @@ $(document).ready(
     $("#toggle-widget").toggle();
     $(".toggle-widget-triangle").toggle();
     $("#trigger-cta span").toggle();
-    $("#trigger-cta i").toggleClass("fa fa-times");
+    $("#trigger-cta i").toggleClass("fa fa-times fa-2");
 
     // While booking widget is open
     // If the user was still on button and their mouse leaves via somewhere NOT the widget
@@ -22,11 +22,11 @@ $(document).ready(
         $("#toggle-widget").toggle();
         $(".toggle-widget-triangle").toggle();
         $("#trigger-cta span").toggle();
-        $("#trigger-cta i").toggleClass("fa fa-times");
+        $("#trigger-cta i").toggleClass("fa fa-times fa-2");
       }
     });
   });
-  
+
   // Keep booking widget up while mouse is hovered over it
   // Hide booking widget when mouse stops hovering
   $("#toggle-widget").hover(function(){
@@ -36,7 +36,7 @@ $(document).ready(
     $(this).toggle();
     $(".toggle-widget-triangle").toggle();
     $("#trigger-cta span").toggle();
-    $("#trigger-cta i").toggleClass("fa fa-times");
+    $("#trigger-cta i").toggleClass("fa fa-times fa-2");
   },function(){
     // Toggle off booking widget
     // Toggle off triangle
@@ -44,7 +44,7 @@ $(document).ready(
     $(this).toggle();
     $(".toggle-widget-triangle").toggle();
     $("#trigger-cta span").toggle();
-    $("#trigger-cta i").toggleClass("fa fa-times");
+    $("#trigger-cta i").toggleClass("fa fa-times fa-2");
   });
 
   // Also keep showing booking widget while mouse is hovered over triangle decoration
@@ -55,6 +55,6 @@ $(document).ready(
     $("#toggle-widget").toggle();
     $(".toggle-widget-triangle").toggle();
     $("#trigger-cta span").toggle();
-    $("#trigger-cta i").toggleClass("fa fa-times");
+    $("#trigger-cta i").toggleClass("fa fa-times fa-2");
   });
 });

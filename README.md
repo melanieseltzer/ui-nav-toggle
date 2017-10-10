@@ -20,7 +20,7 @@ middleman build
 ```
 
 ## Preview in browser
-https://melanieseltzer.github.io/ui-nav-toggle/build/index.html
+https://melanieseltzer.github.io/ui-nav-toggle/build/
 
 ## Built With
 * [Middleman](https://middlemanapp.com/) - The build tool
